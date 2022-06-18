@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { api } from '../services/api';
-import { IProduct } from '../store/modules/cart/types';
-import CatalogItem from './CatalogItem';
+import { api } from '../../services/api';
+import { IProduct } from '../../store/modules/cart/types';
+import Item from '../Item';
 
 // import { Container } from './styles';
+import styles from './index.module.css';
 
 const Catalog: React.FC = () => {
   
@@ -15,10 +16,11 @@ const Catalog: React.FC = () => {
     })
   },[])
   
-  return (<div>
+  return (<div className={styles.catalog}>
     {catalog.map((product)=>{
       return (
-        <CatalogItem product={product} key={product.id}/>
+        // <CatalogItem product={product} key={product.id}/>
+        <Item product={product} key={product.id}/>
       );
     })}
   </div>);

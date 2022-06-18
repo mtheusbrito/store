@@ -3,17 +3,20 @@
     {
       "id": 1,
       "title": "Casaco maneiro",
-      "price": 290.9
+      "price": 290.9,
+      "urlImage": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
     },
     {
       "id": 2,
       "title": "Óculos barato",
-      "price": 20.9
+      "price": 20.9,
+      "urlImage": "https://images.unsplash.com/photo-1614715838608-dd527c46231d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
     },
     {
       "id": 3,
       "title": "Tênis da moda",
-      "price": 500.0
+      "price": 500.0,
+      "urlImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
     }
   ],
   "stock": [

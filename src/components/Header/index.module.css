@@ -1,0 +1,42 @@
+.header{
+  background: var(--green-500);
+  padding: 1.2rem 1rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+.header a{
+   
+   text-decoration: none;
+   align-items: center;
+   display: flex;
+   font-size: 1.2rem;
+  color: var(--gray-300);
+  text-transform: uppercase;
+  }
+
+.header > div{
+  display: flex;
+  gap: .5rem;
+  
+
+  
+}
+.header > div div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+
+.buttonCart{
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+ color: var(--gray-300);
+}
+.buttonCart svg{
+  font-size: 2rem;
+  cursor: pointer;
+}

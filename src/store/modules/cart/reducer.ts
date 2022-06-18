@@ -1,6 +1,7 @@
 import { Reducer } from "redux";
 import { ActionTypes, ICartState } from "./types";
-import produce from 'immer'
+import produce from 'immer';
+import { toast} from 'react-toastify'
 const INITIAL_STATE: ICartState ={
   items: [],
   failsStockCheck:[]
@@ -27,6 +28,8 @@ return produce(state, (draft) => {
 
       console.log('failure', action.payload)
       draft.failsStockCheck.push(action.payload.productId)
+      toast.error(action.payload.message)
+      
       break;
     }
     default: {

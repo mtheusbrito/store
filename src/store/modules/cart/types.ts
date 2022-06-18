@@ -2,6 +2,7 @@ export interface IProduct {
   id: number;
   title: number;
   price: number;
+  urlImage: string;
 }
 export interface ICartItem {
   product: IProduct;

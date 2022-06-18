@@ -1,0 +1,51 @@
+.item{
+  width: 100%;
+  background: var(--white);
+  border-radius: 4px;
+  padding: 1rem;
+  
+}
+.item img{
+  width: 100%;
+  height: 16rem;
+}
+.title{
+  color: var(--gray-600);
+  padding-bottom: .2rem;
+}
+.price{
+  color: var(--gray-800);
+  font-weight: 800;
+}
+.footer{
+  margin-top: 1rem;
+  display: flex;
+  width: 100%;
+  border: solid 2px var(--green-500);
+  border-radius: 4px;
+  
+}
+.footer div{
+  padding: .5rem;
+  display: flex;
+  border-right: solid 2px var(--green-500);
+}
+.footer div svg{
+  font-size: 1rem;
+  color: var(--green-500);
+  margin-right: .4rem;
+  
+}
+.footer button{
+  width: 100%;
+  border: transparent;
+  cursor: pointer;
+  background: transparent;
+  color: var(--green-500);
+  transition: background 0.2s;
+
+}
+.footer button:hover{
+  color:var(--white);
+  background: var(--green-500);
+}

@@ -17,11 +17,12 @@ export function addProductToCartSuccess(product: IProduct) {
     },
   };
 }
-export function addProductToCartFailure(productId: number) {
+export function addProductToCartFailure(productId: number, message: string) {
   return {
     type: ActionTypes.addProductToCartFailure,
     payload: {
       productId,
+      message
     },
   };
 }
